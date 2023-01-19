@@ -1,0 +1,79 @@
+{
+    "function_name": "pagerank_serverless_benchmark",
+    "aws_code": "s3://<your_bucket>/graph-pagerank-code.zip",
+    "gcp_code": "s3://<your_bucket>/graph-pagerank-code.zip",
+    "no_op_code": "s3://<your_bucket>/testOps_no_op.zip",
+    "aws_handler": "main.aws_handler",
+    "gcp_handler": "gcp_handler",
+    "no_op_handler_aws": "lambda_function.lambda_handler",
+    "no_op_handler_gcp": "entry_handler",
+    "gcp_project_id": "<your_gcp_project>",
+    "aws_deployment_role": "<your_role_with_premissions_to_run_aws_lambda>",
+    "pyStorage_arn": "<your_deployed_pyStorage_arn>",
+    "aws_runtime": "python3.8",
+    "gcp_runtime": "python38",
+    "file_type": "zip",
+    "repetitions_of_experiment": 1,
+    "repetitions_per_function": 101,
+    "concurrency": 1,
+    "payload": [
+        {
+            "size": 10000
+        }
+    ],
+    "AWS_regions": {
+        "us-west-2": {
+            "layers": [
+                "<your deployed layer of igraph in us-west-2>"
+            ],
+            "memory_configurations": [
+                128,
+                256,
+                512,
+                1024,
+                2048,
+                4096,
+                8192
+            ]
+        },
+        "us-east-1": {
+            "layers": [
+                "<your deployed layer of igraph in us-east-1>"
+            ],
+            "memory_configurations": [
+                128,
+                256,
+                512,
+                1024,
+                2048,
+                4096,
+                8192
+            ]
+        }
+    },
+    "GCP_regions": {
+        "us-west1": {
+            "memory_configurations": [
+                128,
+                256,
+                512,
+                1024,
+                2048,
+                4096,
+                8192
+            ]
+
+        },
+        "us-east4": {
+            "memory_configurations": [
+                128,
+                256,
+                512,
+                1024,
+                2048,
+                4096,
+                8192
+            ]
+        }
+    }
+}
