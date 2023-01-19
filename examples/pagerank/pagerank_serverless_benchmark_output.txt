@@ -1,0 +1,49 @@
+Pareto Cost - ET
+    avg_ET  cost
+18      18   1.0 
+
+Pareto measurements ET
+{'provider': 'GCP', 'region': 'us-west1', 'MB': 2048, 'avg_RTT': 574, 'avg_no_op_rtt': 555, 'avg_ET': 18, 'cost': 1.0, 'measurement_points': 101}
+
+
+Pareto Cost - RTT
+    avg_RTT  cost
+18      574  1.00
+24      534  1.04
+25      518  1.16 
+
+Pareto measurements RTT
+{'provider': 'GCP', 'region': 'us-west1', 'MB': 2048, 'avg_RTT': 574, 'avg_no_op_rtt': 555, 'avg_ET': 18, 'cost': 1.0, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-east4', 'MB': 1024, 'avg_RTT': 534, 'avg_no_op_rtt': 495, 'avg_ET': 38, 'cost': 1.04, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-east4', 'MB': 2048, 'avg_RTT': 518, 'avg_no_op_rtt': 495, 'avg_ET': 23, 'cost': 1.16, 'measurement_points': 101}
+
+
+Analyzer measurements
+{'provider': 'AWS', 'region': 'us-west-2', 'MB': 128, 'avg_RTT': 5033, 'avg_no_op_rtt': 992, 'avg_ET': 4040, 'cost': 8.62, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-west-2', 'MB': 256, 'avg_RTT': 1578, 'avg_no_op_rtt': 992, 'avg_ET': 586, 'cost': 2.64, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-west-2', 'MB': 512, 'avg_RTT': 1272, 'avg_no_op_rtt': 992, 'avg_ET': 280, 'cost': 2.54, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-west-2', 'MB': 1024, 'avg_RTT': 1122, 'avg_no_op_rtt': 992, 'avg_ET': 130, 'cost': 2.37, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-west-2', 'MB': 2048, 'avg_RTT': 1072, 'avg_no_op_rtt': 992, 'avg_ET': 80, 'cost': 2.9, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-west-2', 'MB': 4096, 'avg_RTT': 1065, 'avg_no_op_rtt': 992, 'avg_ET': 73, 'cost': 5.11, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-west-2', 'MB': 8192, 'avg_RTT': 1037, 'avg_no_op_rtt': 992, 'avg_ET': 45, 'cost': 6.22, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-east-1', 'MB': 128, 'avg_RTT': 4808, 'avg_no_op_rtt': 735, 'avg_ET': 4073, 'cost': 8.69, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-east-1', 'MB': 256, 'avg_RTT': 1357, 'avg_no_op_rtt': 735, 'avg_ET': 621, 'cost': 2.79, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-east-1', 'MB': 512, 'avg_RTT': 977, 'avg_no_op_rtt': 735, 'avg_ET': 242, 'cost': 2.22, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-east-1', 'MB': 1024, 'avg_RTT': 831, 'avg_no_op_rtt': 735, 'avg_ET': 96, 'cost': 1.81, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-east-1', 'MB': 2048, 'avg_RTT': 801, 'avg_no_op_rtt': 735, 'avg_ET': 66, 'cost': 2.41, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-east-1', 'MB': 4096, 'avg_RTT': 811, 'avg_no_op_rtt': 735, 'avg_ET': 76, 'cost': 5.3, 'measurement_points': 101}
+{'provider': 'AWS', 'region': 'us-east-1', 'MB': 8192, 'avg_RTT': 816, 'avg_no_op_rtt': 735, 'avg_ET': 81, 'cost': 11.08, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-west1', 'MB': 128, 'avg_RTT': 1790, 'avg_no_op_rtt': 555, 'avg_ET': 1234, 'cost': 3.25, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-west1', 'MB': 256, 'avg_RTT': 979, 'avg_no_op_rtt': 555, 'avg_ET': 423, 'cost': 2.36, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-west1', 'MB': 512, 'avg_RTT': 699, 'avg_no_op_rtt': 555, 'avg_ET': 143, 'cost': 1.73, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-west1', 'MB': 1024, 'avg_RTT': 602, 'avg_no_op_rtt': 555, 'avg_ET': 46, 'cost': 1.17, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-west1', 'MB': 2048, 'avg_RTT': 574, 'avg_no_op_rtt': 555, 'avg_ET': 18, 'cost': 1.0, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-west1', 'MB': 4096, 'avg_RTT': 583, 'avg_no_op_rtt': 555, 'avg_ET': 27, 'cost': 1.97, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-west1', 'MB': 8192, 'avg_RTT': 582, 'avg_no_op_rtt': 555, 'avg_ET': 26, 'cost': 2.22, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-east4', 'MB': 128, 'avg_RTT': 1314, 'avg_no_op_rtt': 495, 'avg_ET': 818, 'cost': 2.29, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-east4', 'MB': 256, 'avg_RTT': 804, 'avg_no_op_rtt': 495, 'avg_ET': 308, 'cost': 1.83, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-east4', 'MB': 512, 'avg_RTT': 612, 'avg_no_op_rtt': 495, 'avg_ET': 117, 'cost': 1.48, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-east4', 'MB': 1024, 'avg_RTT': 534, 'avg_no_op_rtt': 495, 'avg_ET': 38, 'cost': 1.04, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-east4', 'MB': 2048, 'avg_RTT': 518, 'avg_no_op_rtt': 495, 'avg_ET': 23, 'cost': 1.16, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-east4', 'MB': 4096, 'avg_RTT': 542, 'avg_no_op_rtt': 495, 'avg_ET': 47, 'cost': 3.14, 'measurement_points': 101}
+{'provider': 'GCP', 'region': 'us-east4', 'MB': 8192, 'avg_RTT': 530, 'avg_no_op_rtt': 495, 'avg_ET': 35, 'cost': 2.79, 'measurement_points': 101}
